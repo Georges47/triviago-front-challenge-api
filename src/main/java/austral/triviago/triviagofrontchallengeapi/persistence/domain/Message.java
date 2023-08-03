@@ -12,6 +12,12 @@ public class Message {
     private Long id;
     private String content;
 
+    public Message() {}
+
+    public Message(String content) {
+        this.content = content;
+    }
+
     public Long getId() {
         return id;
     }
